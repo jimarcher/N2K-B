@@ -29,6 +29,12 @@ Type definitions and utility macros used in the NMEA2000 libraries.
 
 #include <stdint.h>
 
+/* JWA These two undef fix some of the compile issues
+*/
+#undef __AVR__
+#undef ARDUINO
+
+
 #if !defined(ARDUINO)
 extern "C" {
 // Application execution delay. Must be implemented by application.
