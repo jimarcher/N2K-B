@@ -29,6 +29,9 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #ifndef ARDUINO
 #include <cstring>
 #endif
+
+#include <string.h> // JWA add this header
+
 #include "NMEA2000_CompilerDefns.h"
 #include "N2kMsg.h"
 
