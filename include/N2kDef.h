@@ -29,7 +29,7 @@ Type definitions and utility macros used in the NMEA2000 libraries.
 
 #include <stdint.h>
 
-/* JWA These two undef fix some of the compile issues
+/* JWA These two undef fix some of the compile issues, in particular with millis 
 */
 #undef __AVR__
 #undef ARDUINO
